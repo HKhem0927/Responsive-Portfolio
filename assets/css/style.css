@@ -232,5 +232,43 @@ input[type=submit] {
 	.container {
 		width: 100%;	
 	}
+
+	h1 {
+		width: 100%;
+	}
+
+	#masthead {
+		width: 100%;
+	}
 	
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	h1 {
+		width: 100%;
+	}
+
+	#masthead {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+	}
+
+	h1 {
+		width: 100%;
+		position: static;
+	}
+
+
+	#masthead {
+		width: 100%;
+	}
 }
