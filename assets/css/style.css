@@ -147,7 +147,7 @@ h3, .sidebar, h2 {
 footer {
 	background: #666;
 	color: #ffffff;
-	padding: 30px 0;
+	padding: 5px 0;
 	clear: both;
 	border-top: 8px solid #4aaaa5;
 	color: #cccccc;
@@ -230,15 +230,79 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 	.container {
-		width: 100%;	
-	}
-
-	h1 {
 		width: 100%;
+		margin:10%;	
 	}
 
+	
+	.main-section {
+		width: 50%;
+		height: 100%;
+		margin-top: -30%;
+	}
+	
+	p { 
+		font-size: 0.6em; 
+	 }
+		
+		
 	#masthead {
 		width: 100%;
+		position: relative;
+		margin-top: -10%;
+		margin-bottom: 20%;
+
+	}
+
+	nav {
+		width: 50%;
+		float: left;
+		margin-left: 20%;
+	}
+
+	.image {
+		width: 30%
+		height: auto;
+		margin-left: 25%;
+		position: center;
+		float: left;
+		display: block;
+	}
+
+	p {text-align: justify;
+		margin-top: 75%;
+	}
+
+	#logo {
+		width: 20%;
+		font-size: 90%;
+		margin-left: -4%;
+
+	}
+
+	.sidebar {
+		width: 100%;
+		margin-right: 20%;
+		margin-top: -30%;
+	
+	}
+
+	footer {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		margin-top: 50%;
+	}
+
+	.work {
+		width: 70%;
+		position: relative;
+		float: left;
+	}
+
+	h3 {
+		width: 5%;
+		position: center;
 	}
 	
 }
@@ -248,12 +312,51 @@ input[type=submit] {
 		width: 100%;
 	}
 
-	h1 {
-		width: 100%;
-	}
+
 
 	#masthead {
 		width: 100%;
+	}
+
+	#logo {
+		font-size: small;
+	}
+
+	.main-section {
+		width: 100%;
+		height: 50%;
+
+	}
+
+	p {
+		text-align: left;
+		margin-top: 0%; 
+	}
+
+	.image {
+		position: absolute;
+		margin-left: 0%;
+	}
+
+	.sidebar {
+		margin-top: 30%;
+		position: absolute;
+		margin-right: auto;
+	
+	}
+
+	footer {
+		margin-top: 60%;
+	}
+
+	.work {
+		position: relative;
+		float: left;
+	}
+
+	.image {
+		float: left;
+		position: static;
 	}
 }
 
@@ -261,12 +364,40 @@ input[type=submit] {
 	.container {
 		width: 100%;
 	}
-
-	h1 {
+	
+	#logo {
 		width: 100%;
-		position: static;
 	}
 
+	#masthead {
+		position: static;
+		width: 100%;
+	}
+
+	.image {
+		margin-left: 30%;
+
+
+	}
+	p {
+		text-align: justify;
+		margin-top: 60%;
+	}
+
+	footer {
+		margin-top: 100%;
+
+	}
+
+	.sidebar {
+		margin-top: 65%;
+		padding: 0 auto;
+	}
+	
+	nav {
+		position: relative;
+		width: 100%;
+	}
 
 	#masthead {
 		width: 100%;
