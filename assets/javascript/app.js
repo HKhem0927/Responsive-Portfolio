@@ -1,3 +1,3 @@
-$(document).on("click", ".workone", function() {
+$(document).on("click", ".work", function() {
     window.location = "https://top20bands.herokuapp.com//";    
 });
